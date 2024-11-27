@@ -1,0 +1,795 @@
+{
+  "total_count": 79,
+  "generated_at": "2024-11-27T10:52:12.015079+08:00",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "activities": [
+    {
+      "time": "2021-12-13T11:02:39+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "uat",
+      "commits": [
+        {
+          "sha": "1f72939e",
+          "message": "[SPSPLAT-9698] fix conflicts"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-13T10:59:20+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "03628180",
+          "message": "[SPSPLAT-9698] cnsc_acl add headers values when not choose a merchant"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T16:32:59+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "8910f36d",
+          "message": "[SPSPLAT-9698] cnsc_acl add headers values when not choose a merchant"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T15:57:27+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "5f75ff47",
+          "message": "[SPSPLAT-9698] cnsc_acl add headers values when not choose a merchant"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T15:38:14+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous",
+      "ref": "songjian.li/feature/SPSPLAT-6702/todo_list_banned_product_change",
+      "commits": [
+        {
+          "sha": "8fc1db43",
+          "message": "[SPSPLAT-6702] fix conflict"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T15:35:00+08:00",
+      "type": "accepted",
+      "project": "Shopee / seller-server / seller-platform / go_common"
+    },
+    {
+      "time": "2021-12-10T15:35:00+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "qiongke.wu/feature/SPSPLAT-6789/redis_cluster_bug_fix",
+      "commits": [
+        {
+          "sha": "af5a17e3",
+          "message": "Merge branch 'songjian.li/feature/SPSPLAT-6702/add_listing_http' in..."
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T15:34:52+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / go_common"
+    },
+    {
+      "time": "2021-12-10T15:33:29+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-10T15:26:08+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "d49bd63c",
+          "message": "[SPSPLAT-9698] cnsc_acl add headers values"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T15:04:02+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "110f05b0",
+          "message": "[SPSPLAT-9698] cnsc_acl add headers values when not choose a merchant"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-10T10:13:28+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "0fb146a9",
+          "message": "[SPSPLAT-9698] add session merchant_region & tob_id"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T19:04:27+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin",
+      "ref": "test",
+      "commits": [
+        {
+          "sha": "f8c7b6d7",
+          "message": "Merge branch 'songjian.li/SPSPLAT-9002/english_version_gateway' int..."
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T19:04:09+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway",
+      "commits": [
+        {
+          "sha": "da877c26",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T19:01:09+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "test",
+      "commits": [
+        {
+          "sha": "090c22cf",
+          "message": "Merge branch 'songjian.li/SPSPLAT-9002/english_version_gateway_fe' ..."
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T18:57:08+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "46c4ab64",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T18:28:40+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "12889072",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T17:19:59+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / Misc"
+    },
+    {
+      "time": "2021-12-08T17:19:44+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / Misc",
+      "ref": "songjian.li/bug/SPSPLAT-10434/update_window_user_status_error"
+    },
+    {
+      "time": "2021-12-08T15:34:16+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "songjian.li/feature/SPSPLAT-9849/redis_cluster_support",
+      "commits": [
+        {
+          "sha": "52aa690d",
+          "message": ""
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T15:31:14+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous",
+      "ref": "uat",
+      "commits": [
+        {
+          "sha": "49f37131",
+          "message": ""
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T15:24:28+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous",
+      "ref": "uat",
+      "commits": [
+        {
+          "sha": "62bfa823",
+          "message": "[SPSPLAT-9849] test for redis multi_client"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T15:22:23+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "songjian.li/feature/SPSPLAT-9849/redis_cluster_support",
+      "commits": [
+        {
+          "sha": "8a83ed38",
+          "message": "[SPSPLAT-6702] add seller_listing http"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T14:27:13+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "c8ca63de",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T14:22:15+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "625a2df7",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T14:21:20+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "934b37a3",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T14:15:47+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "94c67863",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-08T14:14:37+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "c0bf94ab",
+          "message": "[SPSPLAT-10253] fix gateway token_limit lua scripts hot key"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-07T16:15:09+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-07T16:10:47+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous",
+      "commits": [
+        {
+          "sha": "c7fd5357",
+          "message": "[SPSPLAT-8833] fast escrow support ph"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-07T14:07:37+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "21cac73d",
+          "message": "[SPSPLAT-10253] add random data for lua scripts"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-07T10:02:13+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix",
+      "commits": [
+        {
+          "sha": "e305b5ba",
+          "message": "[SPSPLAT-10253] add random data for lua scripts"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-06T18:12:20+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / gateway / seller_gateway"
+    },
+    {
+      "time": "2021-12-06T18:11:57+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-10253/gateway_hot_key_fix"
+    },
+    {
+      "time": "2021-12-03T11:57:44+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "ae8db011",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-03T11:53:07+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin"
+    },
+    {
+      "time": "2021-12-03T11:51:54+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway",
+      "commits": [
+        {
+          "sha": "43f18bde",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-03T11:44:06+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "songjian.li/feature/SPSPLAT-9849/redis_cluster_support",
+      "commits": [
+        {
+          "sha": "52aa690d",
+          "message": "[SPSPLAT-9849] redis multi-client support"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-03T11:33:51+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway",
+      "commits": [
+        {
+          "sha": "655aab57",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T17:41:45+08:00",
+      "type": "deleted branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-02T17:08:55+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-02T17:08:42+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-02T17:06:11+08:00",
+      "type": "accepted",
+      "project": "Shopee / seller-server / seller-platform / go_common"
+    },
+    {
+      "time": "2021-12-02T17:06:11+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "qiongke.wu/feature/SPSPLAT-6789/redis_cluster_bug_fix",
+      "commits": [
+        {
+          "sha": "e3b4c7ec",
+          "message": "Merge branch 'songjian.li/bug/SPSPLAT-10211/fix_log_cache_db_nil' i..."
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T17:06:07+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / go_common"
+    },
+    {
+      "time": "2021-12-02T17:04:19+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "songjian.li/bug/SPSPLAT-10211/fix_log_cache_db_nil"
+    },
+    {
+      "time": "2021-12-02T16:32:50+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / go_common",
+      "ref": "songjian.li/bug/SPSPLAT-8857/prometheus_miscellaneous_metrics_optimization"
+    },
+    {
+      "time": "2021-12-02T14:49:30+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "faf402cf",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T14:45:17+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "e427b84e",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T14:33:38+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway"
+    },
+    {
+      "time": "2021-12-02T14:13:23+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "722d952e",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T14:11:27+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "e0c70372",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T12:04:30+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil",
+      "commits": [
+        {
+          "sha": "d14dfdd6",
+          "message": "[SPSPLAT-10211] fix error cache key is nil"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T12:03:50+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil_nopfb",
+      "commits": [
+        {
+          "sha": "c71a5dff",
+          "message": "[SPSPLAT-10211] fix error cache key is nil"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T11:14:05+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil_nopfb",
+      "commits": [
+        {
+          "sha": "020fe280",
+          "message": "[SPSPLAT-10211] log update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T11:13:41+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil",
+      "commits": [
+        {
+          "sha": "e27fa81b",
+          "message": "[SPSPLAT-10211] log update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T10:34:28+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil_nopfb"
+    },
+    {
+      "time": "2021-12-02T10:34:10+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil",
+      "commits": [
+        {
+          "sha": "eecad3f6",
+          "message": "[SPSPLAT-10211] fix error cache key is nil"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-02T10:18:33+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / seller-platform / component"
+    },
+    {
+      "time": "2021-12-01T17:44:07+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "58cb0337",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-01T14:29:52+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous"
+    },
+    {
+      "time": "2021-12-01T12:02:52+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "ae3e29a3",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-01T12:00:09+08:00",
+      "type": "opened",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe"
+    },
+    {
+      "time": "2021-12-01T11:09:22+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "f1a05473",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-01T10:45:22+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "3ec2425f",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-01T10:31:24+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "2a24f2a7",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-12-01T10:25:15+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "3538fbef",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T19:50:57+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "7bf6d5e3",
+          "message": "[SPSPLAT-9002] english version gateway"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T18:47:47+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil",
+      "commits": [
+        {
+          "sha": "e770a4c2",
+          "message": "[SPSPLAT-10211] fix error cache key is nil"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T18:25:31+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil",
+      "commits": [
+        {
+          "sha": "4f517a2a",
+          "message": "[SPSPLAT-10211] fix error cache key is nil"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T18:02:32+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / seller-platform / component",
+      "ref": "songjian.li/feature/SPSPLAT-10211/component_log_cache_key_is_nil"
+    },
+    {
+      "time": "2021-11-30T16:23:39+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-0/cs_sass_id_nopfb"
+    },
+    {
+      "time": "2021-11-30T15:45:14+08:00",
+      "type": "pushed new branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-0/add_sassid_support"
+    },
+    {
+      "time": "2021-11-30T15:38:55+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "uat",
+      "commits": [
+        {
+          "sha": "9f9fca8d",
+          "message": "Merge remote-tracking branch 'origin/tommy.yu/feature/SPSPLAT-0/cs_..."
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T14:12:02+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "8589c015",
+          "message": "[SPSPLAT-9698] add session merchant_region & tob_id"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-30T11:32:38+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / seller-platform / Miscellaneous",
+      "ref": "songjian.li/feature/SPSPLAT-7866/seller_loan_support_tw",
+      "commits": [
+        {
+          "sha": "8e374c01",
+          "message": "[SPSPLAT-7866] seller_loan support tw"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-29T17:00:37+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "ce68565f",
+          "message": "[SPSPLAT-9002] english version gateway"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-29T16:12:07+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway",
+      "ref": "songjian.li/feature/SPSPLAT-9698/cnsc_acl_add_merchant_id",
+      "commits": [
+        {
+          "sha": "36660edf",
+          "message": "[SPSPLAT-9698] add session merchant_region & tob_id"
+        }
+      ]
+    },
+    {
+      "time": "2021-11-29T15:24:59+08:00",
+      "type": "pushed to branch",
+      "project": "Shopee / seller-server / gateway / seller_gateway_admin_fe",
+      "ref": "songjian.li/SPSPLAT-9002/english_version_gateway_fe",
+      "commits": [
+        {
+          "sha": "999e50e7",
+          "message": "[SPSPLAT-9002] translate update"
+        }
+      ]
+    }
+  ]
+}

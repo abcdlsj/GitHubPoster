@@ -1,7 +1,10 @@
 import time
 
 import requests
+from bs4 import BeautifulSoup
 from pendulum import interval, parse
+import json
+from datetime import datetime
 
 from github_poster.html_parser import GitLabParser
 from github_poster.loader.base_loader import BaseLoader, LoadError
@@ -17,6 +20,7 @@ class GitLabLoader(BaseLoader):
         self.user_name = kwargs.get("gitlab_user_name", "")
         self.gitlab_base_url = kwargs.get("base_url") or "https://gitlab.com"
         self.gitlab_session = kwargs.get("session")
+        self.json_file = kwargs.get("json_file", "gitlab_activities_20241127_105623.json")
         self.left_dates = []
 
     @classmethod
@@ -55,7 +59,30 @@ class GitLabLoader(BaseLoader):
 
         return {}
 
+    def load_activities_from_json(self):
+        """Load activities from a JSON file instead of GitLab API."""
+        try:
+            with open(self.json_file, 'r') as f:
+                data = json.load(f)
+            
+            activities = data.get('activities', [])
+            date_dict = {}
+            
+            for activity in activities:
+                activity_time = activity.get('time', '')
+                if activity_time:
+                    date = datetime.fromisoformat(activity_time.replace('Z', '+00:00')).date().isoformat()
+                    date_dict[date] = date_dict.get(date, 0) + 1
+            
+            self.number_by_date_dict = date_dict
+        except Exception as e:
+            raise LoadError(f"Cannot load activities from JSON file: {str(e)}")
+
     def make_latest_date_dict(self):
+        """Load activities either from JSON file or GitLab API."""
+        if self.json_file:
+            self.load_activities_from_json()
+            return
         try:
             r = requests.get(
                 GITLAB_LATEST_URL.format(
@@ -73,7 +100,6 @@ class GitLabLoader(BaseLoader):
             raise LoadError(f"Can not get gitlab data error: {str(e)}")
 
     def make_left_data_dict(self):
-        p = GitLabParser()
         for d in self.left_dates:
             try:
                 r = requests.get(
@@ -86,11 +112,18 @@ class GitLabLoader(BaseLoader):
                 )
                 # spider rule
                 time.sleep(0.1)
-                p.feed(r.text)
-                self.number_by_date_dict[d] = len(p.lis)
+                activities = self.count_activities_from_html(r.text)
+                print(f"{d}: {activities}")
+                self.number_by_date_dict[d] = activities
             except Exception:
                 # what fucking things happened just pass
                 pass
+
+    def count_activities_from_html(self, html_content):
+        """Count the number of activities from GitLab HTML response."""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        activities = soup.select('ul.bordered-list > li')
+        return len(activities)
 
     def make_track_dict(self):
         self.make_latest_date_dict()
